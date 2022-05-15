@@ -6,6 +6,12 @@ int main(){
 
     printf("Value of x : %d\n",x);
 
+    // p = &x;
+    // p = &x;
+
+    // printf("content of p is : %d\n",*p);
+    // printf("content of p is : %d\n",p);
+
     p = &x;
     *p = 20;
 
