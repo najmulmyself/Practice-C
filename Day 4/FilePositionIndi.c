@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(){
-    FILE *fp = fopen("in.txt",'r')
+    FILE *fp = fopen("in.txt","r");
     if (fp == NULL){
         perror("Can't open file");
         return EXIT_FAILURE;
