@@ -11,7 +11,7 @@ int main(){
     int ch;
 
     ch = fgetc(fp);
-    printf("%c\n",(char) ch);
+    printf("%c\n", ch);
     ch = fgetc(fp);
     printf("%c\n",(char) ch);
 
