@@ -9,7 +9,18 @@ int main(){
     if(num1> num2){
         if(num1 % num2 == 0){
             printf("The first number is divisible by the Second Number");
+        }else{
+            printf("None of them are divisible by others");
         }
+    }
+    else{
+        if (num2 % num1 == 0)
+        {
+            printf("The second number is divisible by the First number");
+        }else{
+            printf("None of them are divisible by others");
+        }
+        
     }
     return 0;
 }
