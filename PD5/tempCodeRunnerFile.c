@@ -1,8 +1,9 @@
-   for(int i = 0;i<n;i++){
-    
-        for(int j = 0;j<=i;j++){
-        printf("*");
-
-        }
-        printf("\n");
-    }
+  if(i==rows  j==1  j==(2i-1))
+        //     {
+        //         printf("");
+        //     }
+        //     else
+        //     {
+        //         printf(" ");
+        //     }
+        // }
