@@ -1,16 +1,11 @@
 #include<stdio.h>
 int main(){
-    int n,count=0;
-    scanf("%d",&n);
+    long long int n,total;
+    scanf("%lld",&n);
 
-    for (int i = 1; i <= n; i++)
-    {
-        for (int j = i++; j <= n; j++)
-        {
-            count++;
-        }
-        
-    }
-    printf("%d",count);
+
+
+  total = (n * (n - 1)) / 2;
+    printf("%lld",total);
     
 }
