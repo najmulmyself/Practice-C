@@ -6,16 +6,21 @@ int main()
     char sen[100];
     fgets(sen, sizeof(sen), stdin);
 
-    changeChar(sen[100]);
+    changeChar(sen);
 }
 
 void changeChar(char sen[100])
 {
-    for (int i = 0; i < strlen(sen); i++)
+    for (int i = 0; i < strlen(sen) - 1; i++)
     {
         if (sen[i] >= 65 && sen[i] <= 90)
         {
-            printf("%s", sen[i] + 32);
+            printf("%c", sen[i] + 32);
+        }
+        else
+        {
+            printf("%c", sen[i] - 32);
         }
     }
+    printf("\n");
 }
