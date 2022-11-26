@@ -24,3 +24,7 @@ void changeChar(char sen[100])
     }
     printf("\n");
 }
+
+
+
+
